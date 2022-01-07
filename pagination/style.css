@@ -1,0 +1,31 @@
+.table, tr, td, thead {
+    border-collapse: collapse;
+    border: solid black;
+}
+.pagination_section {
+    display: inline-block;
+    
+}
+
+.pagination_section a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: solid black;
+    border-top: solid black;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+.pagination_section a.active {
+    background-color:Black;
+    color: White;
+}
+
+.pagination_section a:hover:not(.active) {background-color: grey}
+
+.pagination_section .disabled {
+    pointer-events: none;
+    color: grey
+}

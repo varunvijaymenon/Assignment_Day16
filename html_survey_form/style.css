@@ -1,0 +1,26 @@
+form{
+    padding:30px;
+    background: linear-gradient(to left, black, cyan);
+
+}
+
+table,th {
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+
+    display: block;
+    padding-left: 30px;
+    background: linear-gradient(to left, black, cyan);
+}
+#myTable tr:first-child th{
+    background-color: lightblue;
+}
+body {
+    background-color: steelblue;
+}
+tr{
+    background: linear-gradient(to right, cyan, rgb(177, 212, 212));
+    text-align: center;
+}
